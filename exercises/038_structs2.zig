@@ -1,11 +1,10 @@
-//
 // Grouping values in structs is not merely convenient. It also allows
 // us to treat the values as a single item when storing them, passing
 // them to functions, etc.
-//
+
 // This exercise demonstrates how we can store structs in an array and
 // how doing so lets us print them using a loop.
-//
+
 const std = @import("std");
 
 const Role = enum {
