@@ -60,5 +60,6 @@ fn isPangram(str: []const u8) bool {
     // and if so, we know the given string is a pangram
     //
     // but what do we have to compare?
-    return bits == 0x..???;
+    // i think its hex for the max value indicating we have a full alphabet
+    return bits == 0x3ffffff; // theres no way i would've gotten this
 }
